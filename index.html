@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transliteration into an Alternative Alphabet</title>
+
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+
+<nav>
+    <a href="#">GitHub</a>
+    <a href="#">Add Alphabet</a>
+</nav>
+
+<div class="transliterator">
+
+    <div id="selectDropdownContainer">
+        <label for="selectAlphabet">
+            Select Alphabet
+            <select id="selectAlphabet">
+                <option>Choose an alphabet</option>
+            </select>
+        </label>
+    </div>
+
+    <div class="input-fields">
+        <textarea id="inputTextToT" placeholder="Choose the alphabet to transliterate"></textarea>
+        <div id="translOutput"></div>
+    </div>
+
+    <p id="description">You can select from a list of provided alphabets to transliterate your text into one of them. This allows you to convert the script of the original language into a different, specified alphabet, making the text readable or understandable (or no) in another linguistic system.</p>
+
+</div>
+
+</body>
+
+<script type="module" src="src/scripts/index.mjs"></script>
+
+</html>
