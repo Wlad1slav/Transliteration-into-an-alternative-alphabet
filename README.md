@@ -1,2 +1,2 @@
 # Transliteration into an alternative alphabet
- 
+To contribute your own alphabet, you first need to create a fork of this repository. After that, download this copy to your computer and make the necessary changes to the alphabet file. Once you have finished editing and are satisfied with the results, save the changes and commit them to your local version of the repository. Finally, create a pull request on the repository platform to propose including your changes in the original repository.
