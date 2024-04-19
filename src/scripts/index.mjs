@@ -3,8 +3,12 @@ import {Transliteration} from "./Transliteration.mjs";
 const transliterationApp = new Transliteration({
     alphabets: [
         './alphabets/Czech-Cyrillic.json',
-        './alphabets/Ukranian-PolskaLatynka.json',
+        './alphabets/Lytvin-Latynka.json',
+        './alphabets/Polish-Cyrillic.json',
         './alphabets/Ukranian-AltCyrillic.json',
+        './alphabets/Slovak-Cyrillic.json',
+        './alphabets/Hungarian-Cyrillic.json',
+        './alphabets/Russian-Latin.json',
     ],
     // alphabetsDirection: '../alphabets'
 });
