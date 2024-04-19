@@ -3,7 +3,6 @@ import {Transliteration} from "./Transliteration.mjs";
 const transliterationApp = new Transliteration({
     alphabets: [
         './alphabets/Czech-Cyrillic.json',
-        './alphabets/Ukranian-Latynka.json',
         './alphabets/Ukranian-PolskaLatynka.json',
         './alphabets/Ukranian-AltCyrillic.json',
     ],
