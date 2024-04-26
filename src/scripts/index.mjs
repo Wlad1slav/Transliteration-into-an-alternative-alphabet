@@ -9,6 +9,7 @@ const transliterationApp = new Transliteration({
         './alphabets/Slovak-Cyrillic.json',
         './alphabets/Hungarian-Cyrillic.json',
         './alphabets/Russian-Latin.json',
+        './alphabets/Jotivka-Latynka.json',
     ],
     // alphabetsDirection: '../alphabets'
 });
